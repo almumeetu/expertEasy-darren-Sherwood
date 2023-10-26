@@ -1,0 +1,8 @@
+@use "../abstract" as *;
+
+
+.my-div{
+    & h1{
+        color: yellowgreen;
+    }
+}
