@@ -18,6 +18,13 @@ header {
     & .header-area {
         padding: 25px 0px;
         background: darkgray;
+        .container-fluid{
+            & .row{
+                & .col-xl-2[
+                    
+                ]
+            }
+        }
         & .logo {
             width: 150px;
         }
