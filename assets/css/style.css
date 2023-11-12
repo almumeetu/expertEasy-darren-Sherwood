@@ -1,18 +1,36 @@
-/* Error: expected "{".
- *    ,
- * 25 |                 ]
- *    |                  ^
- *    '
- *   E:\project\expertEasy-darren-Sherwood\assets\scss\component\_header.scss 25:18  @use
- *   E:\project\expertEasy-darren-Sherwood\assets\scss\main.scss 1:1                 root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 25 \2502                  ]\d\a    \2502                   ^\a    \2575 \a   E:\\project\\expertEasy-darren-Sherwood\\assets\\scss\\component\\_header.scss 25:18  @use\a   E:\\project\\expertEasy-darren-Sherwood\\assets\\scss\\main.scss 1:1                 root stylesheet';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .header-area {
+  padding: 25px 0px;
+  background: darkgray;
+}
+header .logo {
+  width: 150px;
+}
+header .main-menu #nav ul {
+  margin-bottom: 0;
+}
+header .main-menu #nav ul li {
+  display: inline-block;
+  padding: 0px 12px;
+}
+header .main-menu #nav ul li a {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  font-size: 16px;
+  margin: 0;
+  color: #000;
+}
+
+/*# sourceMappingURL=style.css.map */
