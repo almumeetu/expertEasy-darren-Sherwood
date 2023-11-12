@@ -11,11 +11,11 @@ body {
 }
 
 header .header-area {
-  padding: 25px 0px;
+  padding: 9px 0px;
   background: darkgray;
 }
-header .logo {
-  width: 150px;
+header .logo img {
+  width: 250px;
 }
 header .main-menu #nav ul {
   margin-bottom: 0;

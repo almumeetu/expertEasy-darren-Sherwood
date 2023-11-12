@@ -18,12 +18,15 @@ body {
 
 header {
     & .header-area {
-        padding: 25px 0px;
+        padding: 9px 0px;
         background: darkgray;
     }
 
     & .logo {
-        width: 150px;
+        & img{
+            width: 250px;
+        }
+       
     }
 
     & .main-menu {
