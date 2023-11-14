@@ -4,27 +4,16 @@
 // **************************************
 // Header CSS Start Here
 // **************************************
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 header {
     & .header-area {
         padding: 9px 0px;
-        background: darkgray;
+        background: #E4F5FC;
     }
 
     & .logo {
         & img{
-            width: 200px;
+            width: 250px;
         }
        
     }
@@ -36,15 +25,19 @@ header {
 
                 & li {
                     display: inline-block;
-                    padding: 0px 5px;
+                    padding: 0px 15px;
 
                     & a {
                         list-style: none;
                         text-decoration: none;
                         padding: 0;
-                        font-size: 14px;
+                        font-size: 16px;
                         margin: 0;
                         color: #000;
+                        transition: .3s;
+                    }
+                    &:hover a{
+                        color: #0190FE;
                     }
                 }
             }
