@@ -12,13 +12,19 @@ header {
     }
 
     & .logo {
-        & img{
-            width: 250px;
-        }
-       
+        width: 20%;
+        float: left;
+        padding: 10px 0px;
+
+        & img {}
+
     }
 
     & .main-menu {
+        width: 80%;
+        float: left;
+        padding: 10px 0px;
+
         & #nav {
             & ul {
                 margin-bottom: 0;
@@ -36,7 +42,8 @@ header {
                         color: #000;
                         transition: .3s;
                     }
-                    &:hover a{
+
+                    &:hover a {
                         color: #0190FE;
                     }
                 }

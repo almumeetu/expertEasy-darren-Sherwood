@@ -2,8 +2,15 @@ header .header-area {
   padding: 9px 0px;
   background: #E4F5FC;
 }
-header .logo img {
-  width: 250px;
+header .logo {
+  width: 20%;
+  float: left;
+  padding: 10px 0px;
+}
+header .main-menu {
+  width: 80%;
+  float: left;
+  padding: 10px 0px;
 }
 header .main-menu #nav ul {
   margin-bottom: 0;
@@ -28,6 +35,10 @@ header .main-menu #nav ul li:hover a {
 .heading .headding h1 {
   font-size: 60px;
   color: #24292E;
+}
+.heading .headding p {
+  font-size: 22px !important;
+  line-height: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
