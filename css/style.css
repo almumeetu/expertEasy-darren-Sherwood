@@ -60,28 +60,43 @@ body {
 .blog-right h2 {
 	font-size: 30px;
 	line-height: 44px;
-	color: red;
+	
 }
 .admin-img {
 	padding: 10px;
 }
 .admin-img img{
 	padding: 10px;
+	border-radius: 20px;
+	border: 1px solid red;
 }
 .admin-author{
 	padding: 10px;
 }
 .admin-author p {
 	font-size: 12px;
-	line-height: 14px;
+	line-height: 20px;
 	font-weight: 200;
 	color: #000;
 }
 .admin-name h3 {
 	font-size: 18px;
 	font-weight: bold;
+	color: red;
+	margin-bottom: 5px;
 }
 .header-top-area {
 	background: red;
 	padding-bottom: 50px;
+}
+.blog-right span{
+	font-size: 14px;
+}
+.blog-left.w-30.f-right {
+	border: 2px solid aliceblue;
+	padding: 10px;
+}
+.blog-right.w-60.f-left {
+	border: 2px solid aliceblue;
+	padding: 10px;
 }
