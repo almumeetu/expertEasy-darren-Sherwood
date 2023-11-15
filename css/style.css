@@ -16,136 +16,221 @@ body {
 
 .header {}
 
-.header-top-area {
-	padding: 10px 0;
-	align-items: center;
-	justify-content: center;
+.header-bar {
+    padding: 10px;
+    background: #000000;
+	text-align: center;
 	border-bottom: 1px solid #018FFE;
 }
 
-.logo {}
+.header-bar p {
+	color: #fff;
+	font-size: 14px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	font-weight: 300;
+}
+
+.header-top-area {
+    padding: 10px 10px;
+	display: block;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #018FFE;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
 
 .logo img {
-	width: 250px;
+    width: 220px;
 }
 
-.main-menu{
-	padding: 13px 0px;
+.main-menu {
+    padding: 13px 0px;
 }
 
-.main-menu nav{}
-.main-menu nav ul{}
-.main-menu nav ul li{
-	display: inline;
-	margin-right: 15px;
+.main-menu nav ul li {
+    display: inline;
+    margin-right: 15px;
 }
-.main-menu nav ul li:last-child{
-	margin-right: 0;
+
+.main-menu nav ul li:last-child {
+    margin-right: 0;
 }
-.main-menu nav ul li a{
-	text-decoration: none;
-	list-style: none;
-	font-size: 12px;
-	color: #000000 !important;
-	transition: .3s;
+
+.main-menu nav ul li a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 13px;
+    color: #000000 !important;
+    transition: .3s;
 }
+
 .main-menu nav ul li:hover a {
-	color: #018FFE;
+    color: #B70038 !important;
+}
+.main-menu nav ul li .subscribe{
+	color: #B70038 !important;
+}
+.main-menu nav ul li:hover .subscribe{
+	color: #018FFE !important;
+}
+.main-menu nav ul li .search-icon{
+	color: #018FFE !important;
+}
+/* Blog CSS Start Here */
+
+.blog-right p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
 }
 
-/* Blog CSS Start Here */
-.blog-left{
-	
-}
-.blog-right p {
-	font-size: 16px;
-    line-height: 1.5;
-	color: #333333;
-}
-.blog-right .heading-p{
-	background: aliceblue;
-	padding: 10px;
-	font-size: 12px;
+.blog-right .heading-p {
+    background: aliceblue;
+    padding: 10px;
+    font-size: 12px;
 }
 
 .blog-right h2 {
-	font-size: 30px;
-	line-height: 44px;
-	
+    font-size: 30px;
+    line-height: 44px;
+
 }
+
 .admin-img {
-	padding: 10px;
+    padding: 10px;
 }
-.admin-img img{
-	border-radius: 10px;
-	border: 2px solid #DEE2E6;
+
+.admin-img img {
+    border-radius: 10px;
+    border: 2px solid #DEE2E6;
 }
+
 .admin-author {
-	padding: 10px;
-	padding-top: 0px !important;
+    padding: 10px;
+    padding-top: 0px !important;
 }
+
 .admin-author p {
-	font-size: 12px;
-	line-height: 20px;
-	font-weight: 200;
-	color: #000;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 200;
+    color: #000;
 }
+
 .admin-name h3 {
-	font-size: 18px;
-	font-weight: 500;
-	color: #018FFE;
-	margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #018FFE;
+    margin-bottom: 5px;
 }
+
 .header-top-area {
-	padding-bottom: 50px;
+    padding-bottom: 50px;
 }
-.blog-right span{
-	font-size: 13px;
-	color: #018FFE;
-	letter-spacing: 2px;
-	font-weight: 300;
+
+.blog-right span {
+    font-size: 13px;
+    color: #018FFE;
+    letter-spacing: 2px;
+    font-weight: 300;
 }
+
 .blog-left.w-30.f-right {
-	border: 1px solid #DEE2E6;
-	padding: 10px;
-	background: #F4F6F8;
+    border: 1px solid #DEE2E6;
+    padding: 10px;
+    background: #F4F6F8;
 }
 
 .blog-right {
-	padding: 10px;
+    padding: 10px;
 }
 
-/*  blog-1st-part */ 
-.blog-1st-part{
-	
+/*  blog-1st-part */
+.blog-1st-part {}
+
+.blog-1st-part .first-content {
+    float: left;
 }
-.blog-1st-part .first-content{
-	float: left;
+
+.blog-1st-part .quick-menu {
+    float: right;
 }
-.blog-1st-part .quick-menu{
-	float: left;
+
+.quick-menu {}
+
+.quick-menu h3 {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    background: #1DA1F2;
+    color: #fff;
 }
-.quick-menu {
-	border: 1px solid #EDEDED;
+
+.quick-menu .quick-content {
+    padding: 10px;
+    padding-bottom: 20px !important;
+    border: 2px solid #EDEDED;
 }
-.quick-menu h3{
-	font-size: 20px;
-	text-align: center;
+
+.quick-menu .quick-content .quick-list ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 3px;
 }
+
+.quick-menu .quick-content .quick-list ul li a h6 {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    line-height: 1.5;
+	transition: .3s;
+}
+.quick-menu .quick-content .quick-list ul li:hover a h6 {
+    list-style: none;
+    text-decoration: none;
+    color: red;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.quick-menu .quick-content .quick-list ul li a h6 span {
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0;
+	transition: .3s;
+}
+.quick-menu .quick-content .quick-list ul li:hover a h6 span {
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0;
+	color: red;
+	text-decoration: underline;
+}
+
 
 
 /* Social CSS Start Here */
-.social-icon{
-margin-top: 20px;	
+.social-icon {
+    margin-top: 20px;
 }
-.social-icon ul li{
+
+.social-icon ul li {
 	display: inline;
-	margin-left: 10px;
-	
+	margin-left: 3px;
 }
-.social-icon ul li:first-child{
-	margin-left: 0;
+
+.social-icon ul li:first-child {
+    margin-left: 0;
 }
+
 .social-icon ul li a {
 	text-decoration: none;
 	list-style: none;
@@ -153,31 +238,35 @@ margin-top: 20px;
 	color: #fff;
 	font-weight: 200;
 	transition: .3s;
-	height: 36px;
-	width: 37px;
+	height: 30px;
+	width: 30px;
 	display: inline-block;
 	text-align: center;
-	padding-top: 7px;
+	padding-top: 5px;
 	border-radius: 4px;
 }
-.social-icon ul li a i{
-	
+.social-icon ul li a i {}
+
+.twitter {
+    background: #1DA1F2;
 }
-.twitter{
-	background: #1DA1F2;
+
+.facebook {
+    background: #3B5A98;
 }
-.facebook{
-	background: #3B5A98;
+
+.linkedin {
+    background: #0077B5;
 }
-.linkedin{
-	background: #0077B5;
+
+.pinterest {
+    background: #CB3C4C;
 }
-.pinterest{
-	background: #CB3C4C;
+
+.envelope {
+    background: #000000;
 }
-.envelope{
-	background: #000000;
-}
-.link{
-	background: #44BE32;
+
+.link {
+    background: #44BE32;
 }
