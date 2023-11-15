@@ -124,10 +124,10 @@ margin-top: 20px;
 	text-decoration: none;
 	list-style: none;
 	font-size: 20px;
-	color: #000000;
+	color: #fff;
+	font-weight: 200;
 	transition: .3s;
-	/* padding: 10px; */
-	background: red;
+	background: black;
 	height: 36px;
 	width: 37px;
 	display: inline-block;
