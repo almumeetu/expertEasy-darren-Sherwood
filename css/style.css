@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     cursor: pointer;
+    position: relative;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400,500,600,700');
@@ -159,7 +160,9 @@ body {
     background: #F4F6F8;
 }
 .blog-left .sidebar-img{
-	
+	border: 1px solid #DEE2E6;
+	padding: 20px;
+	margin-top: 10px;
 }
 .blog-right {
     padding: 10px;
@@ -300,4 +303,60 @@ body {
 
 .link {
     background: #44BE32;
+}
+
+/* Skip To Section */
+.skip-to-section {
+	width: 150px;
+	position: absolute;
+	left: 50px;
+	padding: 15px 20px;
+	border: 1px solid #DEE2E6;
+}
+.skip-to-section .top-pickers{
+    padding: ;
+}
+.skip-to-section .top-pickers h3 {
+	font-size: 18px;
+	color: #000000;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.skip-to-section .top-pickers h3::after {
+	content: '';
+	width: 155px;
+	height: 3px;
+	background: red;
+	position: absolute;
+	left: 0;
+	/* bottom: 3px; */
+	top: 22px;
+}
+.section-list ul li {
+	margin-top: 20px;
+}
+.skip-to-section .top-pickers .section-list ul li a {
+    text-decoration: none;
+}
+.skip-to-section .top-pickers .section-list ul li a h6 {
+    font-size: 14px;
+    font-weight: 200px;
+    line-height: 1.5;
+    color: #333333;
+}
+.skip-to-section .top-pickers .section-list ul li a h6 span{
+    font-size: 14px;
+    font-weight: 200px;
+    line-height: 1.5;
+    color: #333333;
+}
+.skip-to-section .top-pickers .section-list ul li a h6::after {
+	content: '';
+	width: 180px;
+	height: 1px;
+	background: #1DA1F2;
+	position: absolute;
+	left: 0;
+	/* bottom: 3px; */
+	top: 30px;
 }
