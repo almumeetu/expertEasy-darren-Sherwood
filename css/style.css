@@ -16,9 +16,72 @@ body {
 
 .header {}
 
-.header-top-area {}
+.header-top-area {
+	padding: 10px 0;
+	align-items: center;
+	justify-content: center;
+}
 
 .logo {}
 
-.logo img {}
+.logo img {
+	width: 250px;
+}
 
+.main-menu{
+	padding: 13px 0px;
+}
+
+.main-menu nav{}
+.main-menu nav ul{}
+.main-menu nav ul li{
+	display: inline;
+	margin-right: 15px;
+}
+.main-menu nav ul li a{
+	text-decoration: none;
+	list-style: none;
+	font-size: 14px;
+	color: #fff;
+	transition: .3s;
+}
+.main-menu nav ul li:hover a {
+	color: #000000;
+}
+
+/* Blog CSS Start Here */
+.blog-left{
+	
+}
+.blog-right p {
+	font-size: 12px;
+	color: #000000;
+}
+.blog-right h2 {
+	font-size: 30px;
+	line-height: 44px;
+	color: red;
+}
+.admin-img {
+	padding: 10px;
+}
+.admin-img img{
+	padding: 10px;
+}
+.admin-author{
+	padding: 10px;
+}
+.admin-author p {
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: 200;
+	color: #000;
+}
+.admin-name h3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+.header-top-area {
+	background: red;
+	padding-bottom: 50px;
+}
