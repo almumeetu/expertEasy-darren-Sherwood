@@ -39,11 +39,14 @@ body {
 	display: inline;
 	margin-right: 15px;
 }
+.main-menu nav ul li:last-child{
+	margin-right: 0;
+}
 .main-menu nav ul li a{
 	text-decoration: none;
 	list-style: none;
-	font-size: 14px;
-	color: #000000;
+	font-size: 12px;
+	color: #000000 !important;
 	transition: .3s;
 }
 .main-menu nav ul li:hover a {
@@ -55,9 +58,16 @@ body {
 	
 }
 .blog-right p {
-	font-size: 12px;
-	color: #000000;
+	font-size: 16px;
+    line-height: 1.5;
+	color: #333333;
 }
+.blog-right .heading-p{
+	background: aliceblue;
+	padding: 10px;
+	font-size: 12px;
+}
+
 .blog-right h2 {
 	font-size: 30px;
 	line-height: 44px;
@@ -105,7 +115,23 @@ body {
 	padding: 10px;
 }
 
-
+/*  blog-1st-part */ 
+.blog-1st-part{
+	
+}
+.blog-1st-part .first-content{
+	float: left;
+}
+.blog-1st-part .quick-menu{
+	float: left;
+}
+.quick-menu {
+	border: 1px solid #EDEDED;
+}
+.quick-menu h3{
+	font-size: 20px;
+	text-align: center;
+}
 
 
 /* Social CSS Start Here */
@@ -127,7 +153,6 @@ margin-top: 20px;
 	color: #fff;
 	font-weight: 200;
 	transition: .3s;
-	background: black;
 	height: 36px;
 	width: 37px;
 	display: inline-block;
@@ -137,4 +162,22 @@ margin-top: 20px;
 }
 .social-icon ul li a i{
 	
+}
+.twitter{
+	background: #1DA1F2;
+}
+.facebook{
+	background: #3B5A98;
+}
+.linkedin{
+	background: #0077B5;
+}
+.pinterest{
+	background: #CB3C4C;
+}
+.envelope{
+	background: #000000;
+}
+.link{
+	background: #44BE32;
 }
