@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400,500,600,700');
@@ -19,22 +20,22 @@ body {
 .header-bar {
     padding: 10px;
     background: #000000;
-	text-align: center;
-	border-bottom: 1px solid #018FFE;
+    text-align: center;
+    border-bottom: 1px solid #018FFE;
 }
 
 .header-bar p {
-	color: #fff;
-	font-size: 14px;
-	line-height: 1.5;
-	padding: 0;
-	margin: 0;
-	font-weight: 300;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
 }
 
 .header-top-area {
     padding: 10px 10px;
-	display: block;
+    display: block;
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid #018FFE;
@@ -63,22 +64,27 @@ body {
     text-decoration: none;
     list-style: none;
     font-size: 13px;
-    color: #000000 !important;
+    color: #333333 !important;
     transition: .3s;
+    font-weight: bold;
 }
 
 .main-menu nav ul li:hover a {
     color: #B70038 !important;
 }
-.main-menu nav ul li .subscribe{
-	color: #B70038 !important;
+
+.main-menu nav ul li .subscribe {
+    color: #B70038 !important;
 }
-.main-menu nav ul li:hover .subscribe{
-	color: #018FFE !important;
+
+.main-menu nav ul li:hover .subscribe {
+    color: #018FFE !important;
 }
-.main-menu nav ul li .search-icon{
-	color: #018FFE !important;
+
+.main-menu nav ul li .search-icon {
+    color: #018FFE !important;
 }
+
 /* Blog CSS Start Here */
 
 .blog-right p {
@@ -117,14 +123,21 @@ body {
     font-size: 12px;
     line-height: 20px;
     font-weight: 200;
-    color: #000;
+    color: #333333;
 }
 
 .admin-name h3 {
     font-size: 18px;
     font-weight: 500;
     color: #018FFE;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
+    margin-top: 4px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.admin-name h3:hover {
+    color: #B70038;
 }
 
 .header-top-area {
@@ -138,12 +151,16 @@ body {
     font-weight: 300;
 }
 
-.blog-left.w-30.f-right {
+.blog-left.w-30.f-right {}
+
+.blog-left .admin-content {
     border: 1px solid #DEE2E6;
     padding: 10px;
     background: #F4F6F8;
 }
-
+.blog-left .sidebar-img{
+	
+}
 .blog-right {
     padding: 10px;
 }
@@ -188,15 +205,16 @@ body {
 .quick-menu .quick-content .quick-list ul li a h6 {
     list-style: none;
     text-decoration: none;
-    color: #000;
+    color: #333333;
     font-size: 16px;
     line-height: 1.5;
-	transition: .3s;
+    transition: .3s;
 }
+
 .quick-menu .quick-content .quick-list ul li:hover a h6 {
     list-style: none;
     text-decoration: none;
-    color: red;
+    color: #B70038;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -205,14 +223,21 @@ body {
     font-size: 14px;
     line-height: 1.5;
     letter-spacing: 0;
-	transition: .3s;
+    transition: .3s;
 }
+
 .quick-menu .quick-content .quick-list ul li:hover a h6 span {
     font-size: 14px;
     line-height: 1.5;
     letter-spacing: 0;
-	color: red;
-	text-decoration: underline;
+    color: #B70038;
+    text-decoration: underline;
+}
+
+.black {
+    color: #333333 !important;
+    letter-spacing: 0 !important;
+    font-weight: bold !important;
 }
 
 
@@ -220,11 +245,12 @@ body {
 /* Social CSS Start Here */
 .social-icon {
     margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .social-icon ul li {
-	display: inline;
-	margin-left: 3px;
+    display: inline;
+    margin-left: 3px;
 }
 
 .social-icon ul li:first-child {
@@ -232,20 +258,25 @@ body {
 }
 
 .social-icon ul li a {
-	text-decoration: none;
-	list-style: none;
-	font-size: 20px;
-	color: #fff;
-	font-weight: 200;
-	transition: .3s;
-	height: 30px;
-	width: 30px;
-	display: inline-block;
-	text-align: center;
-	padding-top: 5px;
-	border-radius: 4px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 200;
+    transition: .3s;
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 4px;
+    transition: .3s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-.social-icon ul li a i {}
+
+.social-icon ul li:hover a {
+    background: #333333 !important;
+}
 
 .twitter {
     background: #1DA1F2;
