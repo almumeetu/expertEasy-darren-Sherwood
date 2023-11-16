@@ -242,7 +242,21 @@ body {
     letter-spacing: 0 !important;
     font-weight: bold !important;
 }
-
+.exp-heading p {
+	padding-left: 20px;
+	padding-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.exp-heading {
+	float: left;
+	width: 100%;
+	padding: 20px 10px;
+	background: aliceblue;
+}
+.exp-heading h6 {
+	font-weight: ;
+}
 
 
 /* Social CSS Start Here */
