@@ -308,32 +308,37 @@ body {
 /* Skip To Section */
 .skip-to-section {
 	width: 150px;
-	position: absolute;
-	left: 50px;
-	padding: 15px 20px;
-	border: 1px solid #DEE2E6;
+	position: fixed;
+	left: 10%;
+	padding: 15px 5px;
+	margin-top: 10px;
 }
 .skip-to-section .top-pickers{
     padding: ;
 }
 .skip-to-section .top-pickers h3 {
-	font-size: 18px;
+	font-size: 14px;
 	color: #000000;
     font-weight: bold;
     padding-bottom: 5px;
+    
 }
-.skip-to-section .top-pickers h3::after {
-	content: '';
-	width: 155px;
-	height: 3px;
-	background: red;
-	position: absolute;
-	left: 0;
-	/* bottom: 3px; */
-	top: 22px;
+.q-list{
+    color: #018FFE;
+    border-top: 2px solid #018FFE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CCCCCC;
 }
+
 .section-list ul li {
-	margin-top: 20px;
+	margin-top: 5px;
+	border-bottom: 1px solid #CCCCCC;
+	padding-bottom: 5px;
+}
+.section-list ul li:last-child{
+    border-bottom: 2px solid #018FFE !important;
+    padding-bottom: 10px;
 }
 .skip-to-section .top-pickers .section-list ul li a {
     text-decoration: none;
@@ -343,20 +348,19 @@ body {
     font-weight: 200px;
     line-height: 1.5;
     color: #333333;
+    transition: all .3s;
 }
+.skip-to-section .top-pickers .section-list ul li:hover a h6{
+    color: #018FFE;
+}
+
 .skip-to-section .top-pickers .section-list ul li a h6 span{
     font-size: 14px;
     font-weight: 200px;
     line-height: 1.5;
     color: #333333;
+    transition: .3s;
 }
-.skip-to-section .top-pickers .section-list ul li a h6::after {
-	content: '';
-	width: 180px;
-	height: 1px;
-	background: #1DA1F2;
-	position: absolute;
-	left: 0;
-	/* bottom: 3px; */
-	top: 30px;
+.skip-to-section .top-pickers .section-list ul li:hover a h6 span{
+    color: #018FFE;
 }
