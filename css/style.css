@@ -416,3 +416,77 @@ body {
 .skip-to-section .top-pickers .section-list ul li:hover a h6 span{
     color: #018FFE;
 }
+
+/* Recent Post CSS */
+.recent {
+	width: 100%;
+	border: 1px solid #ECF0F1;
+	padding-bottom: 350px !important;
+	padding: 10px;
+	margin-top: 10px;
+}
+.recent-post{
+    
+}
+.recent-post .recent-content{
+
+}
+.recent-post .recent-content .post{
+
+}
+.recent-post .recent-content .post a span {
+	float: left;
+	width: 3%;
+	color: #008FFE;
+	font-style: italic;
+	margin-top: 15px;
+}
+.recent-post .recent-content .post a .text{
+    float: left;
+    width: 70%;
+}
+.recent-post .recent-content .post .recent-thumb{
+    float: left;
+    width: 26%;
+}
+
+.recent-post h4 {
+	/* font-size: 16px; */
+	padding-left: 8px;
+	margin-bottom: 20px;
+	line-height: 1;
+	letter-spacing: 1px;
+	/* border-left: 2px solid #b70038; */
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 15px;
+	/* color: #222; */
+	background: #008FFE;
+	padding: 15px 0px 15px 60px;
+	/* margin: 0 auto !important; */
+	border-radius: 5px;
+	color: #fff;
+}
+.text p {
+	margin-bottom: 8px;
+	font-size: 11px;
+	font-weight: 600;
+	color: #222;
+	margin-top: 0px;
+	line-height: 15px;
+	margin-left: 15px;
+}
+.datee {
+	line-height: 1;
+	font-size: 11px;
+	color: #5d738d;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-left: 15px;
+}
+.recent-content {
+	border-top: 1px solid #ECF0F1;
+	padding-top: 20px;
+	padding-bottom: 85px;
+	border-bottom: 1px solid #ECF0F1;
+}
